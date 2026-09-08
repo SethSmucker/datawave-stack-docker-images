@@ -1,10 +1,10 @@
-ARG REGISTRY="ghcr.io/nationalsecurityagency/datawave"
+ARG REGISTRY="ghcr.io/nationalsecurityagency"
 ARG BUILDER_IMAGE_NAME=${REGISTRY}/datawave-stack-hadoop
 
-ARG BUILDER_IMAGE_TAG=main
+ARG BUILDER_IMAGE_TAG=3.5.0
 
 ARG BASE_IMAGE_NAME=${REGISTRY}/datawave-stack-hadoop
-ARG BASE_IMAGE_TAG=main
+ARG BASE_IMAGE_TAG=3.5.0
 
 ARG ACCUMULO_VERSION=4.0.0-SNAPSHOT
 ARG ZOOKEEPER_VERSION=3.9.5

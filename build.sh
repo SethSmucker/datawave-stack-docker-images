@@ -54,7 +54,7 @@ build_base() {
 }
 
 build_hadoop() {
-  build_image "datawave-hadoop" "ghcr.io/nationalsecurityagency/datawave/datawave-stack-hadoop:main"
+  build_image "datawave-hadoop" "ghcr.io/nationalsecurityagency/datawave-stack-hadoop:main"
 }
 
 build_accumulo() {
